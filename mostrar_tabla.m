@@ -1,14 +1,5 @@
 function mostrar_tabla(titulo, escenarios, resultados, problema)
-% MOSTRAR_TABLA  Imprime en la Command Window una tabla de resultados.
-%
-%   mostrar_tabla(titulo, escenarios, resultados, problema)
-%
-%   escenarios: cell con el nombre de cada fila (ej. {'elitismo', 'torneo'})
-%   resultados: cell con lo que devolvió correr_escenario en cada fila
-%   problema:   para saber si se muestra la columna de RMSE (solo Ackley)
-%
-%   El mejor individuo de cada fila no se muestra aquí porque puede ser
-%   muy largo; ese queda completo en el archivo de Excel.
+
 
 es_ackley = strcmpi(problema, 'ackley');
 

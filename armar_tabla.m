@@ -1,11 +1,5 @@
 function T = armar_tabla(escenarios, resultados, problema)
-% ARMAR_TABLA  Convierte los resultados en una tabla de MATLAB para
-% guardarla en Excel con writetable.
-%
-%   T = armar_tabla(escenarios, resultados, problema)
-%
-%   Columnas: Escenario, Tiempo_s, Mejor_f, Promedio_f, Desv_estandar,
-%             RMSE (solo Ackley) y Mejor_individuo.
+
 
 n = numel(resultados);
 
